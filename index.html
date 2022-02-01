@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts for Internet shop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="page">
+    <div class="header">
+        <div class="container">
+            <div class="header__inner">
+        <div class="header__box">
+            <img class="header__img" src="assets/img/header-img.jpg" alt="">
+        </div>
+        <h1 class="header__title">Доставка пиццы</h1>
+        <h2 class="header__subtitle">Демонстрация скриптов для интернет магазина и работы с DOM в широком смысле</h2>
+    </div> <!--header__inner-->
+
+    </div> <!--container-->
+    </div> <!--header-->
+
+    <div class="row">
+        <div class="container">
+            <div class="row__inner">
+
+              <div class="row__left">
+                  <div class="card">
+
+                    <div data-id="01" class="card__item card__item1">
+                        <div class="card__item-box">
+                            <img class="card__item-img"  src="assets/img/card1-img.png" alt="">
+                        </div>
+                        <h2 class="card__item-title">
+                            Итальянская
+                        </h2>
+                        <div class="card__item-counter">
+                            <span class="counter__minus" data-action="minus">-</span>
+                            <span class="counter__main" data-counter>1</span>
+                            <span class="counter__plus" data-action="plus">+</span>
+                        </div>
+                        <div class="card__item-info">
+                            <p class="card__weight">500 гр.</p>
+                            <p class="card__price">300 ₽</p>
+                        </div>
+                        <a data-btn class="btn" href="#">+ в корзину</a>
+                    </div> <!--card__item-->
+
+                    <div data-id="02" class="card__item card__item2">
+                        <div class="card__item-box">
+                            <img class="card__item-img" src="assets/img/card2-img.png" alt="">
+                        </div>
+                        <h2 class="card__item-title">
+                            Маргарита
+                        </h2>
+                        <div class="card__item-counter">
+                            <span class="counter__minus" data-action="minus">-</span>
+                            <span class="counter__main" data-counter>1</span>
+                            <span class="counter__plus" data-action="plus">+</span>
+                        </div>
+                        <div class="card__item-info">
+                            <p class="card__weight">500 гр.</p>
+                            <p class="card__price">250 ₽</p>
+                        </div>
+                        <a data-btn class="btn" href="#">+ в корзину</a>
+                    </div> <!--card__item-->
+
+                    <div data-id="03" class="card__item card__item3">
+                        <div class="card__item-box">
+                            <img class="card__item-img" src="assets/img/card3-img.png" alt="">
+                        </div>
+                        <h2 class="card__item-title">
+                            Карбонара
+                        </h2>
+                        <div class="card__item-counter">
+                            <span class="counter__minus" data-action="minus">-</span>
+                            <span class="counter__main" data-counter>1</span>
+                            <span class="counter__plus" data-action="plus">+</span>
+                        </div>
+                        <div class="card__item-info">
+                            <p class="card__weight">500 гр.</p>
+                            <p class="card__price">400 ₽</p>
+                        </div>
+                        <a data-btn class="btn" href="#">+ в корзину</a>
+                    </div> <!--card__item-->
+
+                    <div data-id="04" class="card__item card__item4">
+                        <div class="card__item-box">
+                            <img class="card__item-img" src="assets/img/card4-img.png" alt="">
+                        </div>
+                        <h2 class="card__item-title">
+                            Охотничья
+                        </h2>
+                        <div class="card__item-counter">
+                            <span class="counter__minus" data-action="minus">-</span>
+                            <span class="counter__main" data-counter>1</span>
+                            <span class="counter__plus" data-action="plus">+</span>
+                        </div>
+                        <div class="card__item-info">
+                            <p class="card__weight">500 гр.</p>
+                            <p class="card__price">380 ₽</p>
+                        </div>
+                        <a data-btn class="btn" href="#">+ в корзину</a>
+                    </div> <!--card__item-->
+
+
+                  </div>  <!--card-->
+
+
+              </div>
+
+               <div class="row__right">
+                   <div class="basket">
+                       <div class="basket__inner">
+                           <div class="basket__header">
+                               <h2 class="basket__header-title">Ваш заказ</h2>
+                               <div data-basket-empty class="basket__header-box">
+                                   <p>Корзина пуста</p>
+                               </div>
+
+                               <div class="template__box">
+                               <!-- <div data-id="01" class="basket__template">
+                                   <div class="template__left">
+                                       <img class="template__img" src="assets/img/card1-img.png" alt="">
+                                   </div>
+                                   <div class="template__right">
+                                       <h2 class="template__title">Итальянская</h2>
+                                       <div class="template__price">
+                                           <p class="card__weight">500 гр.</p>
+                                           <p class="card__price">400 р</p>
+                                       </div>
+                                       <div class="card__item-counter counter--fortemplate">
+                                        <span class="counter__minus" data-action="minus">-</span>
+                                        <span class="counter__main" data-counter>1</span>
+                                        <span class="counter__plus" data-action="plus">+</span>
+                                    </div>
+
+
+                                   </div>
+                               </div>  -->
+                            </div>
+
+
+
+
+
+                           </div> <!--basket__header-->
+
+                           <div class="basket__midle">
+                               <h2 data-delivery class="basket__midle-title hide">Доставка: <span class="delivery">200 ₽</span></h2>
+                               <h2 class="basket__descr">Бесплатная доставка - при заказе от 1000 рублей</h2>
+                               <h3 class="basket__midle-subtitle">Итого: <span class="full-price">0</span><span class="red"> ₽</span></h3>
+                           </div>  <!--basket__midle-->
+
+                           <div id="order-form" class="basket__bottom hide">
+                               <h2 class="basket__bottom-title">Оформить заказ</h2>
+                               <input class="basket__bottom-input" type="text" placeholder="Ваш номер телефона">
+                               <div class="basket__bottom-case">
+                                <a class="basket__bottom-btn" href="#">Заказать</a>
+                               </div>
+
+                           </div>  <!--basket__bottom-->
+
+
+
+                       </div>
+
+                   </div> <!--basket-->
+
+
+             </div>
+
+    </div> <!--row__inner-->
+
+    </div> <!--container-->
+
+    </div> <!--row-->
+
+
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
