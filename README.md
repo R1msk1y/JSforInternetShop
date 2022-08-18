@@ -1,5 +1,5 @@
-# JSforInternetShop
-JSforInternetShop - </br>
+# jsForInternetShop
+jsForInternetShop - </br>
 Верстка страницы сайта интернет-магазина.</br>
 !!Адаптив - десктоп+планшет+мобильная верися. Всё через @media запросы, без использования Bootstrap.</br>
 !!CSS анимация</br>
