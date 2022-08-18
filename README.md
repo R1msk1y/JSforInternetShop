@@ -5,5 +5,5 @@ JSforInternetShop - </br>
 !!CSS анимация</br>
 !!Вся логика написана на чистом JS</br>
 !!Бургер меню/плавная прокрутка/динамическое скрытие+показ шапки сайта и многое другое</br>
-!!gitHub Pages - https://r1msk1y.github.io/webmarket/
+!!Сайт на gitHub Pages - https://r1msk1y.github.io/webmarket/
 
